@@ -5,7 +5,7 @@ const Header = ({ title }) => {
     return (
         <header className='header'>
             <h1>{title}</h1>
-            <Button color='red' text='Hello' />
+            <Button color='green' text='Add' />
 
         </header>
     )
@@ -23,4 +23,4 @@ Header.propTypes = {
     title: PropTypes.string.isRequired,
 }
 
-export default Header;
+export default Header
